@@ -1,0 +1,22 @@
+{
+  "name": "@bestcodetools/generic-types",
+  "version": "0.0.1",
+  "main": "",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "npm pack"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "keywords": [],
+  "author": "BestCodeTools",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
